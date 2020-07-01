@@ -1,0 +1,244 @@
+areas:
+  method: 'Areas'
+  scope: 'scores'
+canceled_memberships:
+  method: 'CanceledMemberships'
+  scope: 'scores'
+competition_details:
+  method: 'CompetitionDetails'
+  scope: 'scores'
+  params:
+    1:
+      name: 'competition'
+      format: 'string'
+competition_hierarchy:
+  method: 'CompetitionHierarchy'
+  scope: 'scores'
+competitions:
+  method: 'Competitions'
+  scope: 'scores'
+active_memberships:
+  method: 'ActiveMemberships'
+  scope: 'scores'
+historical_memberships:
+  method: 'HistoricalMemberships'
+  scope: 'scores'
+memberships:
+  method: 'MembershipsByTeam'
+  scope: 'scores'
+  params:
+    1:
+      name: 'days'
+      format: 'string'
+memberships_competition:
+  method: 'MembershipsByCompetition'
+  scope: 'scores'
+  params:
+    1:
+      name: 'competition'
+      format: 'string' 
+player:
+  method: 'Player'
+  scope: 'scores'
+  params:
+    1:
+      name: 'player_id'
+      format: 'integer'
+players:
+  method: 'Players'
+  scope: 'scores'
+players_by_team:
+  method: 'PlayersByTeam'
+  scope: 'scores'
+  params:
+    1:
+      name: 'team_id'
+      format: 'integer'
+season_teams:
+  method: 'SeasonTeams'
+  scope: 'scores'
+  params:
+    1: 
+      name: 'season_id'
+      format: 'integer'
+standings:
+  method: 'Standings'
+  scope: 'scores'
+  params:
+    1:
+      name: 'round_id'
+      format: 'integer'
+teams:
+  method: 'Teams'
+  scope: 'scores'
+venues:
+  method: 'Venues'
+  scope: 'scores'
+games_by_date:
+  method: 'GamesByDate'
+  scope: 'scores'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+schedule:
+  method: 'Schedule'
+  scope: 'scores'
+  params:
+    1:
+      name: 'round_id'
+      format: 'integer'
+schedule_by_player:
+  method: 'UpcomingScheduleByPlayer'
+  scope: 'scores'
+  params:
+    1:
+      name: 'player_id'
+      format: 'integer'
+team_games_stats_by_date:
+  method: 'TeamGameStatsByDate'
+  scope: 'scores'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+team_season_stats:
+  method: 'TeamSeasonStats'
+  scope: 'scores'
+  params:
+    1:
+      name: 'round_id'
+      format: 'integer'
+box_score:
+  method: 'BoxScore'
+  scope: 'stats'
+  params:
+    1:
+      name: 'game_id'
+      format: 'integer'
+box_scores:
+  method: 'BoxScores'
+  scope: 'stats'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+box_scores_by_competition:
+  method: 'BoxScoresByCompetition'
+  scope: 'stats'
+  params:
+    1:
+      name: 'competition'
+      format: 'string'
+    2:
+      name: 'date'
+      format: 'string'
+box_scores_delta:
+  method: 'BoxScoresDelta'
+  scope: 'stats'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+    2:
+      name: 'minutes'
+      format: 'string'
+box_scores_delta_by_competition:
+  method: 'BoxScoresDeltaByCompetition'
+  scope: 'stats'
+  params:
+    1:
+      name: 'competition'
+      format: 'string'
+    2:
+      name: 'date'
+      format: 'string'
+    3:
+      name: 'minutes'
+      format: 'string'
+player_game_stats_by_date:
+  method: 'PlayerGameStatsByDate'
+  scope: 'stats'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+player_game_stats_by_player:
+  method: 'PlayerGameStatsByPlayer'
+  scope: 'stats'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+    2:
+      name: 'player_id'
+      format: 'integer'
+player_season_stats_by_team:
+  method: 'PlayerSeasonStatsByTeam'
+  scope: 'stats'
+  params:
+    1:
+      name: 'round_id'
+      format: 'integer'
+    2:
+      name: 'team'
+      format: 'string'
+dfs_slates_by_date:
+  method: 'DfsSlatesByDate'
+  scope: 'projections'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+player_game_projection_stats_by_date:
+  method: 'PlayerGameProjectionStatsByDate'
+  scope: 'projections'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+player_game_projection_stats_by_player:
+  method: 'PlayerGameProjectionStatsByPlayer'
+  scope: 'projections'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+    2:
+      name: 'player_id'
+      format: 'integer'
+upcoming_dfs_slates_by_competition:
+  method: 'UpcomingDfsSlatesByCompetition'
+  scope: 'projections'
+  params:
+    1:
+      name: 'competition_id'
+      format: 'string'
+live_game_odds_by_date:
+  method: 'LiveGameOddsByDate'
+  scope: 'odds'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+live_game_odds_line_movement:
+  method: 'LiveGameOddsLineMovement'
+  scope: 'odds'
+  params:
+    1:
+      name: 'game_id'
+      format: 'integer'
+game_odds_by_date:
+  method: 'GameOddsByDate'
+  scope: 'odds'
+  params:
+    1:
+      name: 'date'
+      format: 'string'
+game_odds_line_movement:
+  method: 'GameOddsLineMovement'
+  scope: 'odds'
+  params:
+    1:
+      name: 'game_id'
+      format: 'integer'
