@@ -52,7 +52,7 @@ class SportsDataIO
     def search_params_valid?(service_hash, search_params)
       return true if service_hash['params'].nil?
 
-      raise InternalError.new('Search params must be a Hash' unless search_params.is_a?(Hash)
+      raise InternalError.new('Search params must be a Hash') unless search_params.is_a?(Hash)
 
       service_hash['params'].all? do |param, value|
         search_params.keys.include?(value["name"].to_sym)
