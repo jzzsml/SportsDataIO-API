@@ -18,7 +18,7 @@ class SportsDataIO
     def load_config
       path = "./sports_data_io/configs/#{@class_name}_methods.yml"
 
-      raise  "Configuration file is missed" unless File.exists?(path)
+      raise  InternalError.new("Configuration file is missed") unless File.exists?(path)
 
       YAML.load(File.read(path))
     end

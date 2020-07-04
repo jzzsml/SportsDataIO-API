@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'sports_data_io_api'
-  s.version = '0.1.2'
+  s.version = '0.1.3'
   s.authors = ['Sergei Gridasov']
   s.date = %q{2020-06-24}
   s.description = 'SportsDataIO API wrapper'
@@ -8,7 +8,9 @@ Gem::Specification.new do |s|
   s.email = 'jsserg24@gmail.com'
   s.files = ['README.md',
   'lib/sports_data_io.rb',
+  'lib/sports_data_io/application_service.rb',
   'lib/sports_data_io/request_builder.rb',
+  'lib/sports_data_io/internal_error.rb',
   'lib/sports_data_io/request_builder/soccer.rb',
   'lib/sports_data_io/configs/soccer_methods.yml']
   s.homepage = 'https://sportsdata.io'
