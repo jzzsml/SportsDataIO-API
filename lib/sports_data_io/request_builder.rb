@@ -1,4 +1,5 @@
 require 'open-uri'
+require 'yaml'
 
 class SportsDataIO
   class RequestBuilder
@@ -16,12 +17,11 @@ class SportsDataIO
     end
 
     def load_config
-      path = "lib/sports_data_io/configs/#{@class_name}_methods.yml"
+      path = "./sports_data_io/configs/#{@class_name}_methods.yml"
 
       raise  "Configuration file is missed" unless File.exists?(path)
 
-      data = ERB.new(File.read(path)).result
-      YAML.load(data).with_indifferent_access
+      YAML.load(File.read(path))
     end
 
     def constructed_url(service_hash, api_key, find_params = {})

@@ -1,14 +1,13 @@
 require 'json'
 require 'ostruct'
-require 'sports_data_io/request_builder.rb'
-require 'sports_data_io/soccer.rb'
+require_relative 'sports_data_io/request_builder'
+require_relative 'sports_data_io/request_builder/soccer'
 
 class SportsDataIO
   @@api_key = nil
 
   def self.api_key
     @@api_key ||= ENV['SPORTS_DATA_IO_API_KEY'] 
-    @@api_key ||= Rails.application.credentials.dig(:sportsdata_io, :api_key)
   
     raise 'API key not set' if @@api_key.nil?
 
