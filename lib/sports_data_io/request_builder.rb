@@ -16,7 +16,7 @@ class SportsDataIO
 
       url = constructed_url(service_hash, search_params)
       response = open(url).read
-
+      
       JSON.parse(response)
     end
 
@@ -31,7 +31,7 @@ class SportsDataIO
     def constructed_url(service_hash, search_params = {})
       scope = service_hash['scope']
       method = service_hash['method']
-      
+
       url_params = constructed_params(service_hash['params'], search_params)
 
       "https://api.sportsdata.io/v3/#{@class_name}/#{scope}/json/#{method}#{url_params}?key=#{key}"

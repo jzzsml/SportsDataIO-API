@@ -1,5 +1,4 @@
 require 'json'
-require 'ostruct'
 require_relative 'sports_data_io/internal_error'
 require_relative 'sports_data_io/application_service'
 require_relative 'sports_data_io/request_builder'
