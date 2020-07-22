@@ -21,7 +21,7 @@ class SportsDataIO
     end
 
     def matched_service_hash
-      selected_service = @@loaded_configs[service.downcase]
+      selected_service = @@loaded_configs[service.underscore]
 
       raise InternalError.new("Method #{service} is not supported by SportDataIo") if selected_service.nil?
 
@@ -68,5 +68,15 @@ class SportsDataIO
 
       raise InternalError.new(error_text)
     end
+  end
+end
+
+class String
+  def underscore
+    self.gsub(/::/, '/')
+      .gsub(/([A-Z]+)([A-Z][a-z])/,'\1_\2')
+      .gsub(/([a-z\d])([A-Z])/,'\1_\2')
+      .tr("-", "_")
+      .downcase
   end
 end

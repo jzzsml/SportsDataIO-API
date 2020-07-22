@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.sportsdata.io/v3/soccer/scores/json/SeasonTeams/86?key=APIKEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - must-revalidate, max-age=300, private
+      Content-Length:
+      - '16568'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 22 Jul 2020 14:01:19 GMT
+      Last-Modified:
+      - Wed, 22 Jul 2020 13:56:19 GMT
+      Vary:
+      - Accept,Accept-Charset
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 22 Jul 2020 13:56:19 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"SeasonTeamId":4138,"SeasonId":86,"TeamId":508,"TeamName":"Bournemouth","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":508,"AreaId":68,"VenueId":1,"Key":"BOR","Name":"AFC
+        Bournemouth","FullName":"Association Football Club Bournemouth","Active":true,"AreaName":"England","VenueName":"Vitality
+        Stadium","Gender":"Male","Type":"Club","Address":"Dean Court, Kings Park","City":"Bournemouth","Zip":"BH7
+        7AF","Phone":"+44 (01202) 726300","Fax":"+44 (01202) 726373","Website":"http:\/\/www.afcb.co.uk","Email":"admin@afcb.co.uk","Founded":1890,"ClubColor1":"Red","ClubColor2":"Black","ClubColor3":null,"Nickname1":"The
+        Cherries","Nickname2":"Boscombe","Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/e\/e5\/AFC_Bournemouth_%282013%29.svg\/241px-AFC_Bournemouth_%282013%29.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000508}},{"SeasonTeamId":4139,"SeasonId":86,"TeamId":509,"TeamName":"Arsenal","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":509,"AreaId":68,"VenueId":2,"Key":"ARS","Name":"Arsenal
+        FC","FullName":"Arsenal Football Club ","Active":true,"AreaName":"England","VenueName":"Emirates
+        Stadium","Gender":"Male","Type":"Club","Address":"75 Drayton Park","City":"London","Zip":"N5
+        1BU","Phone":"+44 (020) 76195003","Fax":"+44 (020) 77044001","Website":"http:\/\/www.arsenal.com","Email":"info@arsenal.co.uk","Founded":1886,"ClubColor1":"Red","ClubColor2":"White","ClubColor3":null,"Nickname1":"The
+        Gunners","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/5\/53\/Arsenal_FC.svg\/200px-Arsenal_FC.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000509}},{"SeasonTeamId":4140,"SeasonId":86,"TeamId":510,"TeamName":"Aston
+        Villa","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":510,"AreaId":68,"VenueId":3,"Key":"AST","Name":"Aston
+        Villa FC","FullName":"Aston Villa Football Club","Active":true,"AreaName":"England","VenueName":"Villa
+        Park","Gender":"Male","Type":"Club","Address":"Villa Park","City":"Birmingham","Zip":"B6
+        6HE","Phone":"+44 (0121) 3272299","Fax":"+44 (0121) 3222107","Website":"http:\/\/www.avfc.co.uk","Email":null,"Founded":1872,"ClubColor1":"Claret","ClubColor2":"Sky
+        Blue","ClubColor3":null,"Nickname1":"The Villa","Nickname2":"The Lions","Nickname3":"The
+        Claret and Blue","WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/2\/26\/Aston_villa_logo16.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000510}},{"SeasonTeamId":4143,"SeasonId":86,"TeamId":511,"TeamName":"Chelsea","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":511,"AreaId":68,"VenueId":4,"Key":"CFC","Name":"Chelsea
+        FC","FullName":"Chelsea Football Club","Active":true,"AreaName":"England","VenueName":"Stamford
+        Bridge","Gender":"Male","Type":"Club","Address":"Fulham Road","City":"London","Zip":"SW6
+        1HS","Phone":"+44 (0871) 9841955","Fax":"+44 (207) 9152900","Website":"http:\/\/www.chelseafc.com","Email":null,"Founded":1905,"ClubColor1":"Royal
+        Blue","ClubColor2":"White","ClubColor3":null,"Nickname1":"The Blues","Nickname2":"The
+        Pensioners","Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/c\/cc\/Chelsea_FC.svg\/209px-Chelsea_FC.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000511}},{"SeasonTeamId":4144,"SeasonId":86,"TeamId":512,"TeamName":"Crystal
+        Palace","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":512,"AreaId":68,"VenueId":5,"Key":"CRY","Name":"Crystal
+        Palace FC","FullName":"Crystal Palace Football Club","Active":true,"AreaName":"England","VenueName":"Selhurst
+        Park","Gender":"Male","Type":"Club","Address":"Whitehorse Lane","City":"London","Zip":"SE25
+        6PU","Phone":"+44 (020) 87686000","Fax":"+44 (020) 87715311","Website":"http:\/\/www.cpfc.co.uk","Email":"info@cpfc.co.uk","Founded":1905,"ClubColor1":"Red","ClubColor2":"Blue","ClubColor3":null,"Nickname1":"Eagles","Nickname2":"Glaziers","Nickname3":"Palace","WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/0c\/Crystal_Palace_FC_logo.svg\/150px-Crystal_Palace_FC_logo.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000512}},{"SeasonTeamId":4145,"SeasonId":86,"TeamId":513,"TeamName":"Everton","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":513,"AreaId":68,"VenueId":6,"Key":"EVE","Name":"Everton
+        FC","FullName":"Everton Football Club","Active":true,"AreaName":"England","VenueName":"Goodison
+        Park","Gender":"Male","Type":"Club","Address":"Goodison Park","City":"Liverpool","Zip":"L4
+        4EL","Phone":"+44 (0871) 6631878","Fax":null,"Website":"http:\/\/www.evertonfc.com","Email":"everton@evertonfc.com","Founded":1878,"ClubColor1":"Blue","ClubColor2":"White","ClubColor3":null,"Nickname1":"The
+        Toffees","Nickname2":"The Blues","Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/7\/7c\/Everton_FC_logo.svg\/325px-Everton_FC_logo.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000513}},{"SeasonTeamId":4146,"SeasonId":86,"TeamId":514,"TeamName":"Leicester
+        City","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":514,"AreaId":68,"VenueId":7,"Key":"LEI","Name":"Leicester
+        City FC","FullName":"Leicester City Football Club","Active":true,"AreaName":"England","VenueName":"King
+        Power Stadium","Gender":"Male","Type":"Club","Address":"The Walkers Stadium,
+        Filbert Way","City":"Leicester","Zip":"LE2 7FL","Phone":"+44 (0844) 8156000","Fax":null,"Website":"http:\/\/www.lcfc.com","Email":null,"Founded":1884,"ClubColor1":"Royal
+        Blue","ClubColor2":"White","ClubColor3":null,"Nickname1":"The Foxes","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/2\/2d\/Leicester_City_crest.svg\/400px-Leicester_City_crest.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000514}},{"SeasonTeamId":4147,"SeasonId":86,"TeamId":515,"TeamName":"Liverpool","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":515,"AreaId":68,"VenueId":8,"Key":"LIV","Name":"Liverpool
+        FC","FullName":"Liverpool Football Club","Active":true,"AreaName":"England","VenueName":"Anfield","Gender":"Male","Type":"Club","Address":"Anfield
+        Road","City":"Liverpool","Zip":"L4 OTH","Phone":"+44 (0844) 4993000","Fax":"+44
+        (0151) 2647213","Website":"http:\/\/www.liverpoolfc.tv","Email":"customercontact@liverpoolfc.tv","Founded":1892,"ClubColor1":"Red","ClubColor2":"White","ClubColor3":null,"Nickname1":"The
+        Reds","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/0c\/Liverpool_FC.svg\/370px-Liverpool_FC.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000515}},{"SeasonTeamId":4148,"SeasonId":86,"TeamId":516,"TeamName":"Man
+        City","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":516,"AreaId":68,"VenueId":9,"Key":"MNC","Name":"Manchester
+        City FC","FullName":"Manchester City Football Club","Active":true,"AreaName":"England","VenueName":"Etihad
+        Stadium","Gender":"Male","Type":"Club","Address":"SportCity","City":"Manchester","Zip":"M11
+        3FF","Phone":"+44 (0870) 0621894","Fax":"+44 (0161) 4387999","Website":"https:\/\/www.mancity.com","Email":"mancity@mancity.com","Founded":1880,"ClubColor1":"Sky
+        Blue","ClubColor2":"White","ClubColor3":null,"Nickname1":"City","Nickname2":"The
+        Citizens","Nickname3":"The Sky Blues","WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/e\/eb\/Manchester_City_FC_badge.svg\/410px-Manchester_City_FC_badge.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000516}},{"SeasonTeamId":4149,"SeasonId":86,"TeamId":517,"TeamName":"Man
+        United","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":517,"AreaId":68,"VenueId":10,"Key":"MNU","Name":"Manchester
+        United FC","FullName":"Manchester United Football Club","Active":true,"AreaName":"England","VenueName":"Old
+        Trafford","Gender":"Male","Type":"Club","Address":"Sir Matt Busby Way","City":"Manchester","Zip":"M16
+        0RA","Phone":"+44 (0161) 8688000","Fax":null,"Website":"http:\/\/www.manutd.com","Email":"enquiries@manutd.co.uk","Founded":1878,"ClubColor1":"Red","ClubColor2":"White","ClubColor3":null,"Nickname1":"The
+        Red Devils","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/7\/7a\/Manchester_United_FC_crest.svg\/296px-Manchester_United_FC_crest.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000517}},{"SeasonTeamId":4150,"SeasonId":86,"TeamId":518,"TeamName":"Newcastle","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":518,"AreaId":68,"VenueId":11,"Key":"NEW","Name":"Newcastle
+        United FC","FullName":"Newcastle United Football Club ","Active":true,"AreaName":"England","VenueName":"St.
+        James'' Park","Gender":"Male","Type":"Club","Address":"Sports Direct Arena","City":"Newcastle
+        upon Tyne","Zip":"NE1 4ST","Phone":null,"Fax":null,"Website":"http:\/\/www.nufc.co.uk","Email":"admin@nufc.co.uk","Founded":1881,"ClubColor1":"Black","ClubColor2":"White","ClubColor3":null,"Nickname1":"The
+        Magpies","Nickname2":"The Toon","Nickname3":"Geordies","WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/5\/56\/Newcastle_United_Logo.svg\/300px-Newcastle_United_Logo.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000518}},{"SeasonTeamId":4151,"SeasonId":86,"TeamId":519,"TeamName":"Norwich","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":519,"AreaId":68,"VenueId":12,"Key":"NOR","Name":"Norwich
+        City FC","FullName":"Norwich City Football Club","Active":true,"AreaName":"England","VenueName":"Carrow
+        Road","Gender":"Male","Type":"Club","Address":"Carrow Road","City":"Norwich","Zip":"NR1
+        1JE","Phone":null,"Fax":null,"Website":"http:\/\/www.canaries.co.uk","Email":"reception@ncfc-canaries.co.uk","Founded":1902,"ClubColor1":"Yellow","ClubColor2":"Green","ClubColor3":null,"Nickname1":"The
+        Canaries","Nickname2":"Yellows","Nickname3":"The Citizens","WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/8\/8c\/Norwich_City.svg\/800px-Norwich_City.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000519}},{"SeasonTeamId":4153,"SeasonId":86,"TeamId":520,"TeamName":"Southampton","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":520,"AreaId":68,"VenueId":13,"Key":"SOT","Name":"Southampton
+        FC","FullName":"Southampton Football Club","Active":true,"AreaName":"England","VenueName":"St.
+        Mary''s Stadium","Gender":"Male","Type":"Club","Address":"Britannia Road","City":"Southampton","Zip":"SO14
+        5FP","Phone":null,"Fax":null,"Website":"http:\/\/www.saintsfc.co.uk","Email":"sfc@saintsfc.co.uk","Founded":1885,"ClubColor1":"Red","ClubColor2":"White","ClubColor3":"Black","Nickname1":"Saints","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/c\/c9\/FC_Southampton.svg\/356px-FC_Southampton.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000520}},{"SeasonTeamId":4154,"SeasonId":86,"TeamId":524,"TeamName":"Tottenham","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":524,"AreaId":68,"VenueId":1329,"Key":"TOT","Name":"Tottenham
+        Hotspur FC","FullName":"Tottenham Hotspur Football Club","Active":true,"AreaName":"England","VenueName":"Tottenham
+        Hotspur Stadium","Gender":"Male","Type":"Club","Address":"Bill Nicholson Way,
+        748 High Road","City":"London","Zip":"N17 OAP","Phone":"+44 (0844) 4995000","Fax":null,"Website":"http:\/\/www.tottenhamhotspur.com","Email":"customer.care@tottenhamhotspur.com","Founded":1882,"ClubColor1":"Navy
+        Blue","ClubColor2":"White","ClubColor3":null,"Nickname1":"Spurs","Nickname2":"The
+        Lilywhites","Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/b4\/Tottenham_Hotspur.svg\/321px-Tottenham_Hotspur.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000524}},{"SeasonTeamId":4155,"SeasonId":86,"TeamId":525,"TeamName":"Watford","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":525,"AreaId":68,"VenueId":18,"Key":"WAT","Name":"Watford
+        FC","FullName":"Watford Football Club","Active":true,"AreaName":"England","VenueName":"Vicarage
+        Road Stadium","Gender":"Male","Type":"Club","Address":"Vicarage Road","City":"Watford","Zip":"WD18
+        0ER","Phone":null,"Fax":null,"Website":"http:\/\/www.watfordfc.com","Email":"yourvoice@watfordfc.com","Founded":1881,"ClubColor1":"Yellow","ClubColor2":"Black","ClubColor3":null,"Nickname1":"The
+        Hornets","Nickname2":"The Golden Boys","Nickname3":"The ''Orns","WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/e\/e2\/Watford.svg\/431px-Watford.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000525}},{"SeasonTeamId":4156,"SeasonId":86,"TeamId":527,"TeamName":"West
+        Ham","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":527,"AreaId":68,"VenueId":634,"Key":"WHU","Name":"West
+        Ham United FC","FullName":"West Ham United Football Club","Active":true,"AreaName":"England","VenueName":"London
+        Stadium","Gender":"Male","Type":"Club","Address":"Green Street, Upton Park","City":"London","Zip":"E13
+        9AZ","Phone":"+44 (020) 85482794","Fax":"+44 (020) 85482758","Website":"http:\/\/www.whufc.com","Email":"yourcomments@westhamunited.co.uk","Founded":1895,"ClubColor1":"Claret","ClubColor2":"Sky
+        Blue","ClubColor3":null,"Nickname1":"The Hammers","Nickname2":"The Irons","Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/c\/c2\/West_Ham_United_FC_logo.svg\/390px-West_Ham_United_FC_logo.svg.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000527}},{"SeasonTeamId":4142,"SeasonId":86,"TeamId":857,"TeamName":"Burnley","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":857,"AreaId":68,"VenueId":198,"Key":"BUR","Name":"Burnley
+        FC","FullName":"Burnley Football Club","Active":true,"AreaName":"England","VenueName":"Turf
+        Moor","Gender":"Male","Type":"Club","Address":"Harry Potts Way","City":"Burnley","Zip":"BB10
+        4BX","Phone":"+44 (0871) 2211882","Fax":"+44 (01282) 700014","Website":"http:\/\/www.burnleyfootballclub.com","Email":"info@burnleyfc.com","Founded":1881,"ClubColor1":"Claret","ClubColor2":"Sky
+        Blue","ClubColor3":null,"Nickname1":"The Clarets","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/0\/02\/Burnley_FC_badge.png","WikipediaWordMarkUrl":null,"GlobalTeamId":90000857}},{"SeasonTeamId":4141,"SeasonId":86,"TeamId":1116,"TeamName":"Brighton
+        Hove","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":1116,"AreaId":68,"VenueId":220,"Key":"BHA","Name":"Brighton
+        & Hove Albion FC","FullName":"Brighton & Hove Albion Football Club","Active":true,"AreaName":"England","VenueName":"The
+        American Express Community Stadium","Gender":"Male","Type":"Club","Address":"44
+        North Road","City":"Brighton & Hove","Zip":"BN1 1YR","Phone":"+44 (01273)
+        878288","Fax":"+44 (01273) 878238","Website":"http:\/\/www.seagulls.co.uk","Email":"seagulls@bhafc.co.uk","Founded":1898,"ClubColor1":"Blue","ClubColor2":"White","ClubColor3":null,"Nickname1":"The
+        Seagulls","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":null,"WikipediaWordMarkUrl":null,"GlobalTeamId":90001116}},{"SeasonTeamId":4157,"SeasonId":86,"TeamId":1463,"TeamName":"Wolverhampton","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":1463,"AreaId":68,"VenueId":205,"Key":"WOL","Name":"Wolverhampton
+        Wanderers FC","FullName":"Wolverhampton Wanderers Football Club","Active":true,"AreaName":"England","VenueName":"Molineux
+        Stadium","Gender":"Male","Type":"Club","Address":"Waterloo Road","City":"Wolverhampton","Zip":"WV1
+        4QR","Phone":"+44 (0871) 2222220","Fax":null,"Website":"http:\/\/www.wolves.co.uk","Email":"info@wolves.co.uk","Founded":1877,"ClubColor1":"Black","ClubColor2":"Gold","ClubColor3":null,"Nickname1":"Wolves","Nickname2":"The
+        Wanderers","Nickname3":null,"WikipediaLogoUrl":null,"WikipediaWordMarkUrl":null,"GlobalTeamId":90001463}},{"SeasonTeamId":4152,"SeasonId":86,"TeamId":1540,"TeamName":"Sheffield
+        Utd","Active":true,"Gender":"Male","Type":"Club","Team":{"TeamId":1540,"AreaId":68,"VenueId":1528,"Key":"SHE","Name":"Sheffield
+        United FC","FullName":"Sheffield United Football Club","Active":true,"AreaName":"England","VenueName":"Bramall
+        Lane","Gender":"Male","Type":"Club","Address":"Bramall Lane","City":"Sheffield,
+        Yorkshire","Zip":"S2 4SU","Phone":"+44 (0871) 9951899","Fax":"+44 (0871) 6632430","Website":"http:\/\/www.sufc.co.uk","Email":"info@sufc.co.uk","Founded":null,"ClubColor1":"Red","ClubColor2":"White","ClubColor3":"Black","Nickname1":"The
+        Blades","Nickname2":null,"Nickname3":null,"WikipediaLogoUrl":null,"WikipediaWordMarkUrl":null,"GlobalTeamId":90001540}}]'
+    http_version: 
+  recorded_at: Wed, 22 Jul 2020 13:56:19 GMT
+recorded_with: VCR 5.0.0
